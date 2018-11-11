@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "diagnostics": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "listFiles": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [ "src/**/*.ts", "test/**/*.ts" ],
+  "exclude": [ "node_modules" ],
+}

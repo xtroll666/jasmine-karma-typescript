@@ -1,0 +1,29 @@
+{
+  "name": "jasmine-karma-typescript",
+  "description": "Jasmine and Karma usage in typescript",
+  "authors": "Cyril LAFOND",
+  "version": "1.0.0",
+  "main": "dist/jasmine-karma-typescript",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.11",
+    "@types/requirejs": "^2.1.31",
+    "cpx": "^1.5.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.1.2",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-requirejs": "^1.1.0",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-typescript": "^3.0.13",
+    "requirejs": "^2.3.6",
+    "ts-lint": "^4.5.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "karma start ./karma-conf.js"
+  }
+}
